@@ -4,7 +4,7 @@
 
 body {
   font-family: "Open Sans", "Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 blockquote {
@@ -23,3 +23,17 @@ p.level-with-blockquote {
   margin-top: 20px;
 }
 
+img {
+  &.welcome {
+    margin-bottom: 20px;
+  }
+}
+
+sup {
+  color: red;
+}
+
+footer {
+  color: #777;
+  margin-top: 40px;
+}
