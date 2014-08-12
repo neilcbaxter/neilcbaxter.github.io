@@ -2,6 +2,45 @@
 ---
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 
+$footer-height: 50px;
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-bottom: $footer-height;
+}
+
+footer {
+  bottom: 0;
+  color: #ccc;
+  height: $footer-height;
+  padding: 20px 0 5px;
+  position: absolute;
+  width: 100%;
+
+  p {
+    margin: 0;
+  }
+
+}
+
+.navbar-default .navbar-brand {
+  color: black;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  background-color: #428bca;
+  color: white;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: black;
+}
+
 body {
   font-family: "Open Sans", "Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 18px;
@@ -31,9 +70,4 @@ img {
 
 sup {
   color: red;
-}
-
-footer {
-  color: #777;
-  margin-top: 40px;
 }
